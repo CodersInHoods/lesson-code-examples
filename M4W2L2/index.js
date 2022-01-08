@@ -60,6 +60,7 @@ app.get("/patients", (req, res) => {
 
 app.post("/patients", (req, res) => {
   const patient = req.body;
+  
   const db = dbConnect.getDB();
 
   db.collection("patients").insertOne(patient);
