@@ -1,0 +1,8 @@
+html
+    head 
+        title all the #{pokemon.length} pokemon page
+    body
+        h1 all the #{pokemon.length} pokemon page
+        ul
+            each p in pokemon 
+                a(href='/pokemon/' + p.id) #{p.name}

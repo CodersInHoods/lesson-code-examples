@@ -1,0 +1,7 @@
+html
+    head 
+        title #{pokemon.name}
+    body
+        h1 #{pokemon.name}
+        each ability in pokemon.abilities
+            p #{ability.ability.name}
