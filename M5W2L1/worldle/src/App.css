@@ -1,0 +1,19 @@
+.result {
+  display: flex;
+}
+.letter {
+  width: 1rem;
+  height: 1rem;
+  border: solid 1px grey;
+  margin: 1px;
+  text-align: center;
+  line-height: 1rem;
+}
+
+.letter.yellow {
+  background-color: rgb(200, 177, 84);
+}
+
+.letter.green {
+  background-color: rgb(108, 206, 108);
+}
