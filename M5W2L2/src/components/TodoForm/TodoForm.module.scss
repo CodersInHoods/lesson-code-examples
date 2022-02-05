@@ -1,0 +1,31 @@
+.form {
+  padding: 1em;
+  display: flex;
+  position: relative;
+
+  input {
+    flex-grow: 1;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0.25em;
+    outline: none;
+    transition: 0.2s;
+
+    &:focus {
+      border-color: #ff9d00;
+    }
+  }
+
+  button {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 2em;
+    border: none;
+    background-color: #ff9d00;
+    color: #fff;
+    border-radius: 3px;
+    padding: 0.5em 2em;
+  }
+}

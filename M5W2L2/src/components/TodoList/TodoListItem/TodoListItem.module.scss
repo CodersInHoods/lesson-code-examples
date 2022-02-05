@@ -1,0 +1,30 @@
+.listItem {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+
+  span {
+    flex-grow: 1;
+    margin-left: 1em;
+  }
+
+  .buttonsContainer {
+    button {
+      margin-left: 0.25em;
+      border: 1px solid #008cff;
+      background-color: #fff;
+      color: #008cff;
+      border-radius: 3px;
+
+      &:disabled {
+        border: 1px solid #868686;
+        color: #868686;
+      }
+
+      &.delete {
+        border: 1px solid #f00;
+        color: #f00;
+      }
+    }
+  }
+}
